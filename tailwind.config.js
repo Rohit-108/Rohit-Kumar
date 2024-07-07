@@ -15,9 +15,9 @@ export default {
         mdl: "768px",
         lgl: "1024px",
         xl: "1280px",
-        sm: "480px",
-        md: "768px",
-        lg: "1080px",
+        sm: "375px",
+        md: "667px",
+        lg: "960px",
       },
       fontFamily: {
         bodyFont: ["Monotserrat", "sans-serif"],

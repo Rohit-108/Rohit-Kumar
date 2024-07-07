@@ -5,7 +5,8 @@ import {Leftsection} from '../components';
 import {Rightsection} from '../components';
 import {Main} from '../components';
 import {About} from "../components";
-import {Projects} from "../components"
+import {Projects} from "../components";
+import {OtherProjects} from "../components";
 
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
           <Main />
           <About />
           <Projects/>
+          <OtherProjects />
         </main>
       </div>
     </div>

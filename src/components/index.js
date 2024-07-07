@@ -5,6 +5,8 @@ export {default as Rightsection} from "./Rightsection"
 export { default as About } from "./sections/About";
 export { default as Projects } from "./sections/Projects";
 export {default as SectionTitle} from "./SectionTitle";
+export {default as OtherProjects} from "./OtherProjects"
+export { default as ArchiveCard} from "./ArchiveCard";
 
 
 
