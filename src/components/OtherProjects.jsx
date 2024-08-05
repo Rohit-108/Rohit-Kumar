@@ -12,7 +12,7 @@ const OtherProjects = () => {
         transition={{ delay: 0.5, duration: 1 }}
         viewport={{ once: true }}
         whileInView={{ opacity: 1, y: 0 }}
-      className="max-w-container mx-auto px-4 py-24 relative transition-all duration-200 ease-in-out flex flex-col items-center py-[60px] px-0 sm:py-[80px] sm:px-0 my-0 mx-auto "
+      className="max-w-container mx-auto px-4 py-24 relative transition-all duration-200 ease-in-out flex flex-col items-center sm:py-[80px] sm:px-0 my-0"
     >
       <div className="w-full flex flex-col items-center ">
         <h2 className="text-sectionHeading m-0 mb-[10px] font-bold text-primaryText leading-[1.1]">
