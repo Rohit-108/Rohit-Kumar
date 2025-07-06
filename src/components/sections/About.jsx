@@ -36,26 +36,16 @@ const About = () => {
         </div>
         <div className="text-secondaryText font-fontParagraph text-base md:text-justify w-full md:max-w-[350px] lg:max-w-[500px]">
           <p className="mb-3">
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in <span className="text-themeBlue">HTML</span>,{" "}
-            <span className="text-themeBlue">CSS</span>,{" "}
-            <span className="text-themeBlue">SCSS</span>,{" "}
-            <span className="text-themeBlue">JavaScript</span>,{" "}
-            <span className="text-themeBlue">React</span> and{" "}
-            <span className="text-themeBlue">bootStrap</span> and{" "}
-            <span className="text-themeBlue">Tailwind</span>. I excel in
-            designing and maintaining responsive websites that offer a smooth
-            user experience. My expertise lies in crafting dynamic, engaging
-            interfaces through writing clean and optimized code and utilizing
-            cutting-edge development tools and techniques.
+            Hello, I'm Rohit Sharma — Frontend Developer & Cybersecurity Enthusiast.
+
+            I specialize in building high-performance web applications using React.js, Redux, and modern UI frameworks like Tailwind CSS. My experience spans developing AI-powered dashboards and scalable frontend systems that deliver real business value.
           </p>
-         
+
           <p className="mb-3">
-            I am also a team player who thrives in collaborating with
-            cross-functional teams to produce outstanding web applications.
+            Previously, I worked as a React Developer at NewFangled Vision, optimizing UI performance and delivering feature-rich analytics tools. I’m currently with Wipro as a Cybersecurity Analyst, focusing on Identity & Access Management (IDAM) and enterprise security frameworks.
           </p>
           <p className="mb-4">
-            Here are a few technologies I’ve been working with recently:
+            Technologies I enjoy working with:
           </p>
           <ul className="grid grid-cols-custom gap-x-3 overflow-hidden list-none">
             {skills &&
