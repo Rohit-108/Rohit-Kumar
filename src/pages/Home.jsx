@@ -1,12 +1,13 @@
 
 import { useEffect, useState } from "react";
 import { Navbar } from '../components';
-import {Leftsection} from '../components';
-import {Rightsection} from '../components';
-import {Main} from '../components';
-import {About} from "../components";
-import {Projects} from "../components";
-import {OtherProjects} from "../components";
+import { Leftsection } from '../components';
+import { Rightsection } from '../components';
+import { Main } from '../components';
+import { About } from "../components";
+import { Education } from "../components";
+import { Projects } from "../components";
+import { OtherProjects } from "../components";
 
 
 const Home = () => {
@@ -40,8 +41,9 @@ const Home = () => {
         <main className="px-[25px] sm:px-[50px] py-0 md:px-[100px] lg:px-[150px] my-0 mx-auto w-full max-w-[1600px] min-h-screen">
           <Main />
           <About />
-          <Projects/>
+          <Projects />
           <OtherProjects />
+          <Education />
         </main>
       </div>
     </div>
