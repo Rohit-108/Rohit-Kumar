@@ -69,6 +69,35 @@ export const social_links = [
 ];
 
 
+export const educationData = [
+  {
+    level: 'Bachelor of Technology',
+    school: 'ABES Engineering College Ghaziabad(ABESEC)',
+    location: 'Ghaziabad, IND',
+    passingYear: '2024',
+    url: 'https://abes.ac.in/',
+    description: `<ul>
+    <li>Branch - Computer Science & Enginearing</li>
+    <li>CGPA - 7.0</li>
+<li> University - Dr. A.P.J.Abdul Kalam Technical University(AKTU), Lukhnow</li>
+<li>Medium - English</li>    </ul>`,
+  },
+  {
+    level: 'Diploma in Computer Science',
+    college: 'Goverment(Rajkiya) Polytechnic College, Aligarh',
+    location: 'Aligarh, IND',
+    passingYear: '2021',
+    url: 'https://mmitaligarh.in/',
+    description: `<ul>
+      <li>Percentage - 71.91%</li>
+    <li>Branch - Computer Science & Enginearing</li>
+<li> Board - Board of Technical Education Uttar Pradesh Lukhnow</li>
+<li>Medium - English</li>
+  
+  </ul>`,
+  },
+];
+
 
 
 
