@@ -17,7 +17,7 @@ const About = () => {
         <span className="relative -bottom-1 text-themeBlue font-mono text-smallSize font-semibold mr-[10px]">
           02.
         </span>
-        <h2 className="text-sectionHeading">About me</h2>
+        <h2 className="text-sectionHeading">About Me</h2>
         <div className="block md:hidden w-full h-[1px] bg-blue-400/20 relative top-[5px] ml-[10px] "></div>
       </div>
       <div className="flex justify-center lg:justify-between place-items-start gap-10 flex-wrap-reverse md:flex-nowrap">

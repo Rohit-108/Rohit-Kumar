@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Profile from "../../assets/profile-pic.jpeg";
 import { motion } from "framer-motion";
 
@@ -16,7 +17,7 @@ const Main = () => {
             viewport={{ once: true }}
             className="text-themeBlue text-clamp1 tracking-wider leading-loose font-mono font-normal ml-[2px]  sm:ml-[3px]"
           >
-            Hi, my name is
+            Namaste, World! I am
           </motion.h1>
           <motion.h2
             initial={{ opacity: 0, y: 15 }}
@@ -34,20 +35,18 @@ const Main = () => {
             viewport={{ once: true }}
             className="text-center lg:text-left text-clamp2 text-secondaryText font-bold font-fontHeading"
           >
-            Front-End React Developer
+            Fullstack Developer & Cybersecurity Analyst
           </motion.h3>
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             transition={{ delay: 0.5, duration: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className=" text-justify lg:text-left m-0 mt-[20px] text-secondaryText font-fontParagraph"
+            className=" text-justify lg:text-left m-0 mt-[20px] mb-4 text-secondaryText font-fontParagraph"
           >
-            I am a passionate front-end developer specialized in building
-            exceptional web apps from Uttar Pradesh, India 📍. I have a strong
-            foundation in front-end & back-end development and am skilled inn
-            creating user friendly and responsive web applications using react
-            and its ecosystem.
+            I'm Rohit Sharma — a cybersecurity analyst at <a href={"https://www.wipro.com/"} className="text-themeBlue">Wipro</a>{' '}
+            with a frontend <a href={"https://github.com/Rohit-108/"} className="text-themeBlue">developer's</a> heart and a full-stack mindset.
+            Blending security with seamless UI. Always building, always learning.
           </motion.p>
           <motion.button
             initial={{ opacity: 0 }}
