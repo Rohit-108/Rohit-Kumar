@@ -8,6 +8,7 @@ export { default as SectionTitle } from "./SectionTitle";
 export { default as OtherProjects } from "./OtherProjects"
 export { default as ArchiveCard } from "./ArchiveCard";
 export { default as Education } from "./sections/Education";
+export { default as Experience } from "./sections/Experience";
 
 
 
