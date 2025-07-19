@@ -71,8 +71,9 @@ export const social_links = [
 
 export const educationData = [
   {
+    id: 1,
     level: 'Bachelor of Technology',
-    school: 'ABES Engineering College Ghaziabad(ABESEC)',
+    college: 'ABES Engineering College Ghaziabad(ABESEC)',
     location: 'Ghaziabad, IND',
     passingYear: '2024',
     url: 'https://abes.ac.in/',
@@ -83,6 +84,7 @@ export const educationData = [
 <li>Medium - English</li>    </ul>`,
   },
   {
+    id: 2,
     level: 'Diploma in Computer Science',
     college: 'Goverment(Rajkiya) Polytechnic College, Aligarh',
     location: 'Aligarh, IND',
@@ -94,6 +96,20 @@ export const educationData = [
 <li> Board - Board of Technical Education Uttar Pradesh Lukhnow</li>
 <li>Medium - English</li>
   
+  </ul>`,
+  },
+  {
+    id: 3,
+    level: 'Senior Secondary Education',
+    college: 'S B P Inter College, Bahlolpur Bulandshahr',
+    location: 'Bulandshahr, IND',
+    passingYear: '2018',
+    url: 'https://mmitaligarh.in/',
+    description: `<ul>
+    <li>Percentage - 65.51%</li>
+    <li>Board - Board of High School and Intermediate Education Uttar Pradesh, Lukhnow</li>
+    <li>Stream - Mathematics & Science</li>
+    <li>Medium - Hindi</li>
   </ul>`,
   },
 ];
