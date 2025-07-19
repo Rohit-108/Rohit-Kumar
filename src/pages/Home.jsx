@@ -8,6 +8,7 @@ import { About } from "../components";
 import { Education } from "../components";
 import { Projects } from "../components";
 import { OtherProjects } from "../components";
+import { ContactUs } from "../components";
 
 
 
@@ -46,6 +47,7 @@ const Home = () => {
           <Projects />
           <OtherProjects />
           <Education />
+          <ContactUs />
         </main>
       </div>
     </div>

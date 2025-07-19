@@ -7,7 +7,7 @@ const Experience = () => {
                 <span className="relative -bottom-1 text-themeBlue font-mono text-smallSize font-semibold mr-[10px]">
                     03.
                 </span>
-                <h2 className="text-sectionHeading">Experience</h2>
+                <h2 className="text-sectionHeading">Work Experience</h2>
                 <div className="block sm:hidden w-full h-[1px] bg-blue-400/20 relative top-[5px] ml-[10px] "></div>
                 <div className="hidden sm:block w-full md:w-[200px] lg:w-[300px] h-[1px] bg-blue-400/20 relative top-[5px] ml-[20px]"></div>
             </div>
@@ -28,7 +28,7 @@ const Experience = () => {
                         <p>Recognized for precision in access control design, strong cross-functional collaboration, attention to security compliance, and consistent delivery of secure and scalable identity solutions.</p>
                     </div>
                 </div>
-<div></div>
+                <div></div>
             </div>
 
 
