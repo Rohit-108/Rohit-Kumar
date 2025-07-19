@@ -32,8 +32,6 @@ const Education = () => {
                             Visit College Website
                         </a>
                         <div dangerouslySetInnerHTML={{ __html: edu.description }} className="font-mono text-s font-normal tracking-wide text-lightSlate mb-2.5" />
-                        
-                        
                     </div>
                 ))}
             </div>
